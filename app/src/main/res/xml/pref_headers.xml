@@ -1,0 +1,26 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:id="@+id/studyDataHeader"
+        android:fragment="com.example.kist.PreferencesActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_action_name_2"
+        android:title="@string/pref_header_studyData"
+        android:summary="Add study data which appears in output file name" />
+
+    <header
+        android:id="@+id/metricsHeader"
+        android:fragment="com.example.kist.PreferencesActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_action_name_3"
+        android:title="@string/pref_header_metrics"
+        android:summary="Choose which variables (attributes) appear in output file" />
+
+    <header
+        android:id="@+id/deviceHeader"
+        android:fragment="com.example.kist.PreferencesActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/pref_header_device"
+        android:summary="Add device settings which appears in output file name"/>
+
+</preference-headers>

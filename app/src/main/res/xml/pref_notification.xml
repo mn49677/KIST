@@ -1,0 +1,83 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="wpmswitch"
+        android:title="@string/wpm"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="bcswitch"
+        android:title="@string/bc"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="msderswitch"
+        android:title="@string/msder"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="kspcswitch"
+        android:title="@string/kspc"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ceswitch"
+        android:title="@string/ce"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pcswitch"
+        android:title="@string/pc"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ubswitch"
+        android:title="@string/ub"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="wbswitch"
+        android:title="@string/wb"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="terswitch"
+        android:title="@string/ter"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ncerswitch"
+        android:title="@string/ncer"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cerswitch"
+        android:title="@string/cer"
+        android:summaryOn="Metric is turned on."
+        android:summaryOff="Metric is turned off."/>
+
+
+</PreferenceScreen>

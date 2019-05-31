@@ -1,0 +1,94 @@
+<resources>
+
+    <string name="app_name">KIST</string>
+    <string name="title_input">Input</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_about">About</string>
+    <string name="title_charts">Stats</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="screenSize">Screen size</string>>
+    <string name="button_text_charts_1">Change variable</string>
+    <string name="button_text_charts_2">Change orientation</string>
+    <string name="button_text_charts_3">Change device type</string>
+    <string name="button_text_charts_4">Change screen size</string>
+
+    <!-- Study data settings strings -->
+    <string name="pref_header_studyData">Study data</string>
+        <!-- participant ID -->
+        <string name="pref_title_social_recommendations">Participant ID</string>
+        <string name="pref_description_social_recommendations">Enter Participant ID that will appear in output file name</string>
+
+        <!-- Test mark -->
+        <string name="pref_title_display_name">Test mark</string>
+        <string name="pref_default_display_name"></string>
+        <string name="keyboard_type">Keyboard type</string>
+
+        <!-- Number of phrases -->
+        <string name="pref_title_add_friends_to_messages">Number of phrases</string>
+
+        <!-- Keyboard type -->
+        <string name="keyboardType">Keyboard type</string>
+
+    <!-- Device settings strings -->
+    <string name="pref_header_device">Device (Independent variables)</string>
+
+        <!-- Orientation -->
+        <string name="pref_title_sync_frequency">Orientation</string>
+        <string-array name="deviceArray">
+            <item>Mobile phone</item>
+            <item>Tablet</item>
+            <item>Other</item>
+            <item>Not defined</item>
+        </string-array>
+
+        <!-- Device type -->
+        <string name="pref_title_system_sync_settings">Device type</string>
+        <string-array name="orientationArray">
+            <item>Portrait</item>
+            <item>Landscape</item>
+            <item>Not defined</item>
+        </string-array>
+
+        <string-array name="multi_select_list_preference_default_value" />
+
+        <!-- Screen size -->
+        <string name="pref_title_device_screen_size">Screen size</string>
+
+    <!-- Metrics settings strings -->
+    <string name="pref_header_metrics">Metrics (Dependent variables)</string>
+
+        <string name="pref_title_new_message_notifications">New message notifications</string> <!-- ? -->
+        <string name="wpm">Words per minute</string>
+        <string name="bc">Backspace count</string>
+        <string name="kspc">Keystrokes per character</string>
+        <string name="msder">Minimum string distance error rate</string>
+        <string name="ce">Correction efficiency</string>
+        <string name="pc">Participant conscientiousness</string>
+        <string name="ub">Utilised bandwidth</string>
+        <string name="wb">Wasted bandwidth</string>
+        <string name="ter">Total error rate</string>
+        <string name="cer">Corrected error rate</string>
+        <string name="ncer">Not corrected error rate</string>
+        <string name="pref_ringtone_silent"></string> <!-- ? -->
+        <string name="not_defined">Not defined</string>
+
+
+
+    <string-array name="metricsArray">
+        <item>WPM</item>
+        <item>BC</item>
+        <item>KSPC</item>
+        <item>MSDER</item>
+
+        <item>CE</item>
+        <item>PC</item>
+        <item>UB</item>
+        <item>WB</item>
+
+        <item>TER</item>
+        <item>CER</item>
+        <item>NCER</item>
+
+    </string-array>
+</resources>

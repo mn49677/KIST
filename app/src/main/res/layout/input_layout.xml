@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/navigation"
+    android:orientation="vertical"
+    android:background="@color/grayBackground"
+    android:clipToPadding="false"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <android.support.design.widget.TextInputEditText
+        android:fontFamily="@font/roboto_light"
+        android:elevation="3dp"
+        android:translationZ="1dp"
+        android:id="@+id/text_output"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text=""
+        android:padding="10dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:inputType="none"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/text_output"
+        android:orientation="horizontal"
+        android:elevation="3dp"
+        android:translationZ="1dp"
+        android:background="@color/white">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_light"
+
+            android:id="@+id/text_input"
+            android:layout_weight="80"
+            android:layout_height="150dp"
+            android:layout_below="@id/text_output"
+            android:background="@color/white"
+            android:hint="Enter text here..."
+            android:padding="10dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium_italic"
+            android:id="@+id/button"
+            android:layout_height="match_parent"
+            android:layout_weight="300"
+            android:text="Next"
+            android:onClick="onClick"
+            android:layout_below="@+id/text_input"
+            android:layout_centerHorizontal="true"
+            android:elevation="5dp"
+            android:translationZ="5dp"
+            android:textColor="@color/darkBlueAccent"
+            android:background="@drawable/button_background"
+            android:layout_margin="0dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

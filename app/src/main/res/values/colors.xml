@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AC5253</color>
+    <color name="colorPrimaryDark">#AC5253</color>
+    <color name="colorAccent">#242e3e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="realblack">#000000</color>
+    <color name="deleteColor">#D34C4C</color>
+
+    <color name="blueAccent">#72A8BC</color>
+    <color name="darkBlueAccent">#242E3E</color>
+    <color name="redAccent">#AC5253</color>
+    <color name="grayBackground">#F2F2F2</color>
+    <color name="beige">#BFB393</color>
+
+    <color name="button_pressed">#3F7589</color>
+    <color name="button_focused">#BFBFBF</color>
+    <color name="button_default">#72A8BC</color>
+</resources>

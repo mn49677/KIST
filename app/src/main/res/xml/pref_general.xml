@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:hint="ID"
+        android:capitalize="words"
+        android:inputType="text"
+        android:key="participantID"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_social_recommendations"
+        android:summary="Type in your ID"/>
+
+
+    <EditTextPreference
+        android:hint="Enter test mark"
+        android:capitalize="words"
+        android:inputType="text"
+        android:key="testMark"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name"
+        android:summary="Type in a test mark you want to put in output file name"/>
+
+    <EditTextPreference
+        android:hint="Enter keyboard name"
+        android:capitalize="words"
+        android:inputType="number"
+        android:key="numberOfPhrases"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_add_friends_to_messages"
+        android:summary="Choose number of random test phrases "
+        />
+
+    <EditTextPreference
+        android:hint="Enter keyboard name"
+        android:capitalize="words"
+        android:inputType="text"
+        android:key="keyboardType"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/keyboard_type"
+        android:summary="Type in the name of keyboard which will be in output file name"
+        />
+
+</PreferenceScreen>
